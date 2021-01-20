@@ -1,0 +1,46 @@
+.main{
+    .episodios{
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        clip-path: polygon(100% 0, 100% 96%, 0 100%, 0 4%);
+        height: 1203.5px;
+        margin-top: 24px;
+        width: 100%;
+        .contenedor{
+            .contenedor-subtitulo{
+                display: flex;
+                justify-content: flex-start;
+                .subtitulo{
+                    margin-left: 16px;
+                    margin-top: 64px;
+                    h2{
+                        
+                        font-family: 'ibm plex sans';
+                        font-weight: 400;
+                        font-size: 36px;
+                        line-height: 42px;
+                        color: #ffffff;
+                    }
+                }
+            }
+            .contenedor-episodios{
+                display: grid;
+                grid-template-columns: minmax(298px,584px);
+                grid-template-rows: 225px 225px 225px 225px;
+                gap: 11px;
+                margin-top: 21px;
+                justify-content: center;
+                .episodio{
+                    margin-left: 9px;
+                    margin-right: 9px;
+                    iframe{
+                        width: 100%;
+                        min-width: 298px;
+                        max-width: 584px;
+                        border: 0;
+                        color: rgba(0, 0,0, 0);
+                    }
+                }
+            }
+        }
+    }
+}

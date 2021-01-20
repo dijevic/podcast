@@ -1,0 +1,17 @@
+@media screen and (min-width:768px){
+    .main{
+        .titulo{
+            .contenedor{
+                font-size: 18px;
+                .contenedor-titulo{
+                    h1{
+                        br{
+                            display: none;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

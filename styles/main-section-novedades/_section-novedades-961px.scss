@@ -1,0 +1,38 @@
+@media screen and (min-width:961px){
+    .main{
+        .novedades{
+            position: relative;
+            top: 34px;
+            height: 518px;
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 33%);
+            .contenedor{
+                .contenedor-titulo{
+                    top: 213px;
+                    position: relative;
+                    h2{
+                        font-size: 48px;
+                        line-height: 62px;
+                        color: #ffffff;
+                        br{
+                            display: none;
+                        }
+                    }
+    
+                }
+                .contenedor-boton{
+                    position: relative;
+                    top:206px;
+                    margin-top: 36px;
+                    .boton{
+                        a{
+                            font-size: 18px;
+                            line-height: 24px;
+                            padding: 16px 59px;
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+}

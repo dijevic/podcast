@@ -1,0 +1,12 @@
+@media screen and(min-width:768px){
+    .main{
+        .entrevistas{
+            .contenedor{
+                .contenedor-imagenes{
+                    grid-template-columns: minmax(300px,480px) minmax(300px,480px);
+                    grid-template-rows: minmax(364px,364px) minmax(364px,364px) minmax(364px,364px);
+                }
+            }
+        }
+    }
+}

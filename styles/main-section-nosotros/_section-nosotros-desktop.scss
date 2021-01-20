@@ -1,0 +1,40 @@
+@media screen and (min-width:1281px){
+    .main{
+        .nosotros{
+            .contenedor{
+                grid-gap: 62.1px;
+                .contenedor-imagen{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 200px;
+                    margin-bottom: -60px;
+                    img{
+                        width: 457px;
+                        height: 660px;
+                        margin-top: -40px;
+                    }
+                }
+                .contenedor-subtitulo{
+                    margin-right: 200px;
+                    .subtitulo{
+                        margin-top: 20.4px;
+                        h2{
+                            font-size: 48px;
+                            line-height: 62px;
+                        }
+                    }
+                    .contenedor-texto{
+                        margin-top: 24px;
+                        width: 464px;
+                        height: 204px;
+                        p{
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

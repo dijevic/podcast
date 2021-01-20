@@ -1,0 +1,72 @@
+.main{
+    .titulo{
+        .contenedor{
+            font-size: 16px;
+            .contenedor-titulo{
+                margin-top: 29px;
+                margin-left: 16px;
+          
+                h1{
+                    font-size: 2.25em;
+                    line-height: 42px;
+                    color: $azul-fuente;
+                    letter-spacing: 0;
+                    font-family: 'ibm plex sans';
+                    font-weight: 400;
+                    .world{
+                        text-decoration: line-through $azul-fuente;
+                    }
+                }
+            }
+            .contenedor-descripcion{
+                margin-left: 16px;
+                margin-right: 16px;
+                margin-top: 16px;
+                p{
+                    font-size: 0.875em;
+                    line-height: 1.375em;
+                    font-family: 'ibm plex mono';
+                    font-weight: 400;
+                    letter-spacing: 0;
+                }
+            }
+            .contenedor-descripcion-desktop{
+                display: none;
+                p{
+                    font-size: 0.875em;
+                    line-height: 1.375em;
+                    font-family: 'ibm plex mono';
+                    font-weight: 400;
+                    letter-spacing: 0; 
+                }
+            }
+            .btn-conoce-mas{
+                display: flex;
+                justify-content: flex-start;
+                margin: 36px 16px 0 16px;
+                .boton{
+                   
+                    background: $turquesa;
+                    a{
+                        font-family: 'ibm plex mono';
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: $azul-fuente;
+                        letter-spacing: 0;
+                        text-align: center;
+                        padding: 13px 96px;
+                        display: inline-block;
+                        transition: 0.7s ease;
+                        &:hover{
+                            background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                            color: #ffffff;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+}

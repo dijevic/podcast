@@ -1,0 +1,30 @@
+@media screen and (min-width:981px){
+    .footer{
+        height: 100px;
+        .contenedor{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            align-items: center;
+            top: 36px;
+            .contenedor-texto{
+                margin-left: 100px;
+                p{
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+            }
+            .contenedor-redes-sociales{
+                margin-right: 100px;
+                .redes{
+                    width: 196px;
+                    a{
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@media screen and (min-width:1281px){
+    .main{
+        .episodios{
+            height: 1043px;
+            clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+            .contenedor{
+                .contenedor-subtitulo{
+                    .subtitulo{
+                        margin-left: 200px;
+                        margin-top: 186px;
+                        h2{
+                            font-size: 48px;
+                            line-height: 62px;
+                        }
+                    }
+                }
+                .contenedor-episodios{
+                    margin-top: 26px;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    grid-gap: 72px;
+                    grid-template-columns: minmax(584px,auto) minmax(584px,auto);
+                    grid-template-rows: 232px 232px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.main{
+    .novedades{
+        height: 341px;
+        margin-top: 42px;
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 14%);
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        .contenedor{
+            .contenedor-titulo{
+                position: relative;
+                top: 64px;
+                
+                h2{
+                    font-size: 36px;
+                    line-height: 42px;
+                    font-family: 'ibm plex sans';
+                    font-weight: 400;
+                    letter-spacing: 0;
+                    color: #ffffff;
+                    text-align: center;
+                    
+
+                }
+            }
+            .contenedor-boton{
+                position: relative;
+                top:58px;
+                margin-top: 36px;
+                display: flex;
+                justify-content: center;
+                margin-left: 16px;
+                margin-right: 16px;
+                .boton{
+                    background: $turquesa;
+                    a{
+                        display: inline-block;
+                        padding: 13px 43px;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: $azul-fuente;
+                        font-family: 'ibm plex mono';
+                        font-weight: 500;
+                        transition: 0.7s ease;
+                        &:hover{
+                            color:#ffffff;
+                            background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

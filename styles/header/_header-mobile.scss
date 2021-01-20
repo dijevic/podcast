@@ -1,0 +1,88 @@
+.header{
+    background: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 44px;
+    z-index: 10;
+    .contenedor{
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        .logo{
+            width: 1.5em;
+            height: 1.5em;
+            margin: 10px 16px;
+        }
+        #btn-menu{
+            display: none;
+        }
+        label{
+            i{
+                font-size: 1.125em;
+                line-height: 0.75em;
+                margin: 16px 19px;
+                color: $azul-fuente;
+            }
+        }
+        .btn-x{
+            display: none;
+        }
+
+        .menu{
+            position: absolute;
+            top: 44px;
+            transition: 1s ease-in-out;
+            background: $azul;
+            width: 100%;
+            height: 224px;
+            ul{
+                
+                li{
+                    a{
+                        display: inline-block;
+                        padding: 16px 100% 8px 16px;
+                        color: #ffffff;
+                        font-size: 16px;
+                        font-family: 'ibm plex mono';
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0;
+                        transition: 0.5s ease;
+                        &:hover{
+                            color: $turquesa;
+                            text-decoration: line-through $turquesa;
+                        }
+                        &:active{
+                            color:rgba($color: #060A24, $alpha: 0.56);
+                            text-decoration: line-through ;
+                        }
+                    }
+                }
+            }
+        }
+
+        #btn-menu{
+            &:checked ~ .menu{
+                margin: 0;
+            }
+           &:not(:checked) ~ .menu{
+               margin-left: -100%;
+    
+           }
+    
+           &:checked ~ .btn-x{
+               display: block;
+           }
+           &:checked ~ .btn-bars {
+               display: none;
+           }
+          
+        }
+    
+    
+        
+    }
+}

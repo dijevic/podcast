@@ -1,0 +1,38 @@
+.main{
+    .nosotros{
+        .contenedor{
+            .contenedor-imagen{
+                margin-top: -98px;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 22.5em;
+                    height: 32.4375em;
+                    z-index: 5;
+                }
+            }
+           .contenedor-subtitulo{
+               margin: 27px 16px 0px 16px;
+               h2{
+                   font-family: 'ibm plex sans';
+                   font-weight: 400;
+                   font-size: 36px;
+                   line-height: 42px;
+                   letter-spacing: 0;
+                   color: $azul-fuente;
+               }
+               .contenedor-texto{
+                   margin-top: 8px;
+                   p{
+                       font-family: 'ibm plex mono';
+                       font-size: 14px;
+                       font-weight: 400;
+                       line-height: 22px;
+                       letter-spacing: 0;
+                       color: $azul-fuente;
+                   }
+               }
+           }
+        }
+    }
+}

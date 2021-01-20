@@ -1,0 +1,57 @@
+.main{
+    .temas{
+        .contenedor{
+            .contenedor-titulo{
+                margin-top: 48px;
+                margin-left: 16px;
+                margin-right: 16px;
+                h2{
+                    font-family: 'ibm plex sans';
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 42px;
+                    color: $azul-fuente;
+                    letter-spacing: 0;
+                }
+            }
+            .contenedor-topicos{
+                position: relative;
+                top: -12px;
+                .topico{
+                    width: 100%;
+                    margin-top: 36px;
+                    .thumb{
+                        height: 130px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            position: relative;
+                            top: 13px;
+                        }
+                    }
+                    .descripcion{
+                        position: relative;
+                        top: 13px;
+
+                        margin-left: 16px;
+                        margin-right: 16px;
+                        p{
+                            text-align: center;
+                            height: 32px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            font-family: 'ibm plex sans';
+                            font-weight: 600;
+                            letter-spacing: 0;
+                            color: $azul-fuente;
+                            br{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

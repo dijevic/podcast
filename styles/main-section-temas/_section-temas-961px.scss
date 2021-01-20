@@ -1,0 +1,34 @@
+@media screen and (min-width:961px){
+    .main{
+        .temas{
+            .contenedor{
+                .contenedor-titulo{
+                    margin-left: 100px;
+                    margin-top: 64px;
+                    h2{
+                        font-size: 48px;
+                        line-height: 62px;
+                        color: $azul-fuente;
+                        letter-spacing: 0;
+                    }
+                }
+                .contenedor-topicos{
+                    display: flex;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    .topico{
+                        margin-top: 56px;
+                        .thumb{
+                            img{
+                                bottom: 13px;
+                            }
+                        }
+                        .descripcion{
+                            top: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

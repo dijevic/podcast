@@ -1,0 +1,32 @@
+.footer{
+    .contenedor{
+        .contenedor-texto{
+            margin-top: 24px;
+            p{
+                font-family: 'ibm plex mono';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: $azul-fuente;
+                text-align: center;
+            }
+        }
+        .contenedor-redes-sociales{
+            margin-top: 16px;
+            display: flex;
+            justify-content: center;
+            .redes{
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                a{
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0;
+                    color: $azul-fuente;
+                }
+
+            }
+        }
+    }
+}
